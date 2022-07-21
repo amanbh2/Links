@@ -45,7 +45,7 @@ body{
 .header{
     margin: 0px auto;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     text-align: center;
     width: 100%;
     background-color: white;
@@ -55,13 +55,13 @@ body{
 }
 .header h1{
     font-family: 'Sacramento', cursive;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: lighter;
     /* color: #1E90FF; */
 }
 .link-container{
     margin: 50px auto;
-    width: 60%;
+    width: 40%;
     /* background-color: rebeccapurple; */
 }
 .link-head{
@@ -97,6 +97,23 @@ body{
 .details{
     display: grid;
     grid-template-columns: 100%;
+    /* grid-row: ; */
+    margin-left: 10px;
+    margin-right: 10px;
+    /* place-items: center start; */
+}
+.title{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+    height: 35px;
+
+}
+.desc{
+    font-size: 12px;
+    height: 35px;
+    text-align: justify;
 }
 .raw-link{
     height: 30px;
@@ -140,6 +157,9 @@ body{
 
 }
 @media only screen and (max-width: 600px) {
+    body{
+        font-family: 'Raleway', sans-serif;
+    }
     .nav{
         width: 80%;
         position: fixed;
@@ -147,5 +167,11 @@ body{
     }
     .link-container{
         width: 90%;
+    }
+    .link-text p{
+        font-size: 10px;
+    }
+    .desc{
+        font-size: 11px;
     }
   }
