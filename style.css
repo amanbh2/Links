@@ -78,6 +78,27 @@ body{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 5px;
     /* border: 1px #333 solid; */
 }
+.social-box{
+    height: 40px;
+    display: grid;
+    grid-template-columns: 60px auto 60px 80px;
+    /* place-items: center start; */
+    background-color: #fff;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.social-icon{
+    display: grid;
+    place-items: center;
+}
+.social-id{
+    display: grid;
+    place-items: center start;
+}
 .raw-link, .project{
     width: 100%;
 }
@@ -133,7 +154,7 @@ body{
     padding-left: 10px;
     font-family: 'Raleway', sans-serif;
 }
-.copy-btn{
+.visit-btn{
     display: grid;
     place-items: center;
     height: 20px;
@@ -147,14 +168,42 @@ body{
     background-color: #1E90FF11;
     user-select: none;
 }
-.copy-btn a:link, .copy-btn a:visited, .copy-btn a:active{
+.visit-btn a:link, .visit-btn a:visited, .visit-btn a:active{
     color: #1E90FF;
     text-decoration: none;
 }
-.copy-btn:hover{
+.visit-btn:hover{
     border: 1px #1E90FF solid;
     cursor: pointer;
 
+}
+.svisit-btn{
+    display: grid;
+    place-items: center;
+    transition: all 0.5s ease-in-out;
+    color: #1E90FF;
+    background-color: #1E90FF11;
+    user-select: none;
+
+}
+.svisit-btn a:link, .svisit-btn a:visited, .svisit-btn a:active{
+    color: #1E90FF;
+    text-decoration: none;
+}
+.svisit-btn:hover{
+    border: 1px #1E90FF solid;
+    cursor: pointer;
+
+}
+.copy-btn{
+    font-size: 10px;
+    display: grid;
+    place-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+#endgap{
+    height: 200px;
 }
 @media only screen and (max-width: 600px) {
     body{
