@@ -184,6 +184,7 @@ body{
     color: #1E90FF;
     background-color: #1E90FF11;
     user-select: none;
+    border-radius: 0px 5px 5px 0px;
 
 }
 .svisit-btn a:link, .svisit-btn a:visited, .svisit-btn a:active{
